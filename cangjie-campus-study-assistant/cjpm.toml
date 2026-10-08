@@ -1,0 +1,12 @@
+[package]
+cjc-version = "1.2.0"
+name = "studymate"
+version = "0.1.0"
+description = "A beginner-friendly native desktop study planner in Cangjie"
+output-type = "executable"
+compile-option = ""
+link-option = "--subsystem=windows"
+
+[dependencies]
+cui = { path = "vendor/CangjieGUI" }
+sdl = { path = "vendor/CangjieSDL" }

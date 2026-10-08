@@ -1,0 +1,14 @@
+/target/
+/data/
+/*.exe
+/*.dll
+/*.cjo
+*.macrocall
+*.bak
+*.log
+.arts/
+.vscode/
+*.code-workspace
+vendor/CangjieSDL/.sdl3/
+vendor/**/target/
+vendor/**/cjpm.lock
